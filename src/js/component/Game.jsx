@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Winner } from "../helper";
 import Board from "./Board.jsx";
-import "../../styles/Game.css";
+import "../../styles/game.css";
 
 const Game = ({ chooseX }) => {
 	const [board, setBoard] = useState(Array(9).fill(null));
